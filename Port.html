@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Awais Shaukat | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #b2dfdb);
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: #004D40;
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      color: #004D40;
+      margin-bottom: 1rem;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #004D40;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #00796B;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        padding: 2rem 1rem;
+      }
+      section {
+        padding: 1.5rem;
+      }
+      .project {
+        padding: 1rem;
+      }
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      .project h3 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Muhammad Awais Shaukat</h1>
+  <p>IET Student | Flutter Developer | Tech Explorer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am an enthusiastic Information Engineering Technology (IET) student with a strong passion for software development, embedded systems, and network engineering. Currently in my final year, I’ve successfully completed my Final Year Project titled <strong>"MY NSU App"</strong> a smart university companion designed to centralize academic and administrative services. It enhances student life through real-time updates, automation, and seamless integration with university systems. I’ve also worked on multiple academic and personal projects using C++, Java, Flutter, MATLAB, and Cisco technologies.</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>MY NSU App (Final Year Project)</h3>
+    <p>A smart university companion mobile app built with Flutter and Firebase. Key features include:</p>
+    <ul>
+      <li>Advanced SGPA/CGPA calculators with performance graphs</li>
+      <li>Real-time LMS/UMS integration for academic updates</li>
+      <li>AI-powered chatbot (Dialogflow) for student support</li>
+      <li>360° campus navigation with virtual walkthroughs</li>
+      <li>Personalized academic calendar & smart reminders</li>
+      <li>Role-based access with guest mode</li>
+      <li>Real-time notifications (Firebase Cloud Messaging)</li>
+      <li>Searchable past papers & learning material repository</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Airline Reservation System (C++)</h3>
+    <p>Console-based application handling bookings, passenger info, and flight management in C++.</p>
+  </div>
+
+  <div class="project">
+    <h3>Vending Machine (DLD + Proteus)</h3>
+    <p>Hardware-based vending machine in DLD and simulated software-based version in Proteus.</p>
+  </div>
+
+  <div class="project">
+    <h3>Airport Management System (Java + DSA)</h3>
+    <p>Applied Data Structures & Algorithms to build a flight and terminal management app in Java.</p>
+  </div>
+
+  <div class="project">
+    <h3>Airport Documentation Project (SE Course)</h3>
+    <p>Developed full SRS documentation, UML diagrams, ERDs, and reports for an Airport Management System.</p>
+  </div>
+
+  <div class="project">
+    <h3>SOHO Network (Cisco Packet Tracer)</h3>
+    <p>Designed and implemented a Small Office Home Office network using Cisco Packet Tracer.</p>
+  </div>
+
+  <div class="project">
+    <h3>Audio Enhancement (DSP in MATLAB)</h3>
+    <p>Enhanced audio signals using digital signal processing techniques in MATLAB.</p>
+  </div>
+
+  <div class="project">
+    <h3>High Performance Computing + Project Management</h3>
+    <p>Implemented modern PM concepts in HPC scenarios as part of advanced computing course.</p>
+  </div>
+
+  <div class="project">
+    <h3>Page Replacement Algorithms (Ubuntu OS)</h3>
+    <p>Implemented page replacement algorithms for operating system simulations in Ubuntu using C.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>App Development with Flutter</li>
+    <li>Programming: C++, Java, Python, Dart, DSA</li>
+    <li>Bug Fixing & Debugging</li>
+    <li>Database Management: Firebase, SSMS</li>
+    <li>Networking with Cisco Packet Tracer</li>
+    <li>Tools: Android Studio, MATLAB, Proteus, MySQL Server, PyCharm, MS Office</li>
+    <li>Communication & Teamwork</li>
+    <li>Leadership & Project Management</li>
+    <li>Critical Thinking & Problem Solving</li>
+    <li>Adaptability to New Tools</li>
+    <li>Time Management</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: Ranaawais12363@gmail.com</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/rana-awais-98143a248/" target="_blank">LinkedIn</a></p>
+  <p>GitHub: <a href="https://github.com/Rana12130" target="_blank">GitHub</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Muhammad Awais Shaukat | Portfolio powered by passion & technology 🚀</p>
+</footer>
+
+</body>
+</html>
